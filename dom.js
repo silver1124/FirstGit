@@ -22,3 +22,8 @@ newItem.className = 'list-group-item';
 newItem.textContent = 'Item 5';
 var list = items[0].parentNode;
 list.appendChild(newItem);  
+
+var items = document.getElementsByClassName('list-group-item');
+console.log(items);
+items[1].style.backgroundColor = 'green'
+items[2].style.visibility='hidden'
